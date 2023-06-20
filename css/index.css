@@ -16,8 +16,9 @@ body {
 
 #bienvenida h1{
     justify-content: center;
-    margin: 0 auto;
     margin-top: 30px;
+    font-size: 25px;
+    margin: 0 auto;
     
     
 }
@@ -25,6 +26,7 @@ body {
 #bienvenida h1 u{
     color: greenyellow;
     font-family:'Times New Roman', Times, serif ;
+    font-size: 20px;
 }
 
   
@@ -33,7 +35,7 @@ body {
   }
   
   #mmeennuu:checked ~ .menu {
-    width: 500px;
+    width: 90%;
     border-radius: 5px;
     background-color: transparent;
     border: 3px solid #e4bc0d;
@@ -67,6 +69,7 @@ body {
   .menu div.barry {
     width: 40px;
     margin: 35px auto;
+    
   }
   .menu div.barry .bar {
     display: block;
@@ -75,6 +78,7 @@ body {
     margin-top: 3px;
     border-radius: 2px;
     background-color: #fff;
+ 
   }
   .menu ul {
     opacity: 0;
@@ -87,18 +91,20 @@ body {
     list-style-type: none;
     padding: 0;
     width: 500px;
-    text-align: center;
+
     margin-bottom: 0;
+    
   }
   .menu ul li {
     display: inline-block;
+    
   }
   .menu ul li a {
     text-decoration: none;
     display: inline-block;
-    padding: 15px 25px;
+    padding: 15px 15px;
     color: #e4bc0d;
-    font-size: 20px;
+    font-size: 15px;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -106,6 +112,9 @@ body {
     -ms-transition: all 0.3s ease-in-out;
     border: 3px solid transparent;
     border-radius: 5px;
+    margin-left: -12px;
+    
+ 
   }
   .menu ul li a:hover {
     border-color: #F44336;
@@ -113,6 +122,11 @@ body {
   .menu ul li a:target {
     border-bottom-color: #F44336;
   }
+
+.conjunto{
+    display: flex;
+    height: 95%;
+}
 
 #presentacion p{
     color: greenyellow;
